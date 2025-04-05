@@ -1,0 +1,40 @@
+{
+    "name": "SealSui",
+    "version": "1.0.0",
+    "description": "Automate Sui SEAL Protocol interaction for allowlist creation and service subscription management",
+    "main": "index.js",
+    "scripts": {
+      "start": "node main.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/itsmesatyavir/SealSui.git"
+    },
+    "keywords": [
+      "sui",
+      "blockchain",
+      "seal",
+      "allowlist",
+      "automation",
+      "subscription"
+    ],
+    "author": "airdropinsiders",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/itsmesatyavir/SealSui/issues"
+    },
+    "homepage": "https://github.com/itsmesatyavir/SealSui#readme",
+    "dependencies": {
+      "@mysten/sui.js": "^0.42.0",
+      "axios": "^1.6.2",
+      "dotenv": "^16.3.1",
+      "fs": "^0.0.1-security",
+      "https-proxy-agent": "^7.0.2",
+      "path": "^0.12.7",
+      "readline": "^1.3.0"
+    },
+    "engines": {
+      "node": ">=16.0.0"
+    }
+  }
